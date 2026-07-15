@@ -47,13 +47,15 @@ fi
 
 **If `MEMORY_KIT_FOUND`:** Read the full `~/.claude/CLAUDE.md`. Pull their name, role, business context, what they sell, who they sell to, and any other relevant detail. You now have a head start on the conversation. Use their name throughout. Do not re-ask anything the file already tells you. Also scan the current project for context files that reveal the business (CLAUDE.md in the project root, any readme, any context files). The more you know going in, the faster the intake and the smarter the diagnostic.
 
+**If the bash check cannot run** (for example, in Claude's web interface or a platform without terminal access), ask for their name and what they do. Treat as STANDALONE.
+
 **If `STANDALONE`:** Ask for their name and what they do before anything else.
 
 **Both paths:** Greet them warmly and frame what you are doing together. Hit these beats in your own words:
 
 - You are going to have a focused conversation about their marketing
 - The goal is to find the ONE channel with the most leverage right now, and build a 30-day action plan for it
-- It takes about 15 to 25 minutes
+- It takes about 20 to 30 minutes (longer if you go deep on the diagnostic, which is fine)
 - At the end, they will have a clear decision and a concrete plan
 
 Keep it short. Ask if they are ready to start. Do not continue until they say go.
@@ -66,6 +68,7 @@ Start with:
 
 > Do you already have a sense of which marketing channel has the most potential for your business right now, or are you figuring that out?
 
+- If their answer reveals they are overwhelmed beyond marketing (scattered across their whole work or life, not just marketing channels), this wizard is not the right starting point. They need clarity before strategy. Offer to pivot: "It sounds like there is a lot going on beyond marketing. Would it help to step back and map where your attention is going before we narrow in on a channel? I can run a Focus Map session instead, and we come back to marketing once you have that clarity." If they accept, run the Focus Map wizard. If they say "no, let's stay on marketing," continue.
 - If they name a clear, specific channel and can explain why, skip to Step 5 (the NOT list and altitude check, so the decision gets pressure-tested and the parked channels are named before you dig in). But first, briefly challenge it: "What makes you confident this is where the leverage is?" If the answer holds up, ask what else they considered (you need the NOT list even on the fast path). If it wobbles, continue to Step 3.
 - If they are unsure, give a broad answer, or name several things, continue to Step 3.
 
@@ -75,11 +78,11 @@ Start with:
 
 You need to understand their business and marketing picture. How you open this step depends on what you already know.
 
-**If you already have business context** (from the bridge check, project files, or earlier conversation): open in confirmation mode. Play back what you know and ask for gaps:
+**If you already have business context** (from the bridge check, project files, or earlier conversation): open in confirmation mode. Play back EVERYTHING you know, not just the business basics:
 
-> From what I can see, you [run/sell/do X] for [audience Y]. On the marketing side, [what you know about their channels, assets, or efforts]. Does that sound right, or has anything shifted? And is there anything else I should know about your marketing situation?
+> From what I can see, you [run/sell/do X] for [audience Y]. On the marketing side, [what you know: channels they use, assets they have, what they have tried, where they spend money]. Does that sound right, or has anything shifted? And is there anything else I should know about your marketing situation?
 
-Skip any thread below that the confirmation already covered. Only explore genuine gaps.
+This covers multiple threads at once. If the bridge check told you they have a website with 85 landing pages, an agency running ads, and an email list, you already have "what they sell," "what marketing they do," and "what assets they have." Confirm all of it in one pass and only dig into the threads where you have genuine gaps.
 
 **If you are starting from scratch** (STANDALONE or the bridge check had no business context): explore these threads one question at a time, following whatever comes up:
 
@@ -148,6 +151,8 @@ Use your judgment when the channel could fit more than one branch. If someone sa
 
 **The adaptive principle applies to diagnostic questions too.** If the intake already revealed that they have 85 landing pages, do not ask "How many pages are getting traffic?" Confirm and go deeper: "You mentioned 85 landing pages. Do you know which ones get the most traffic?" Skip any diagnostic question the conversation has already answered.
 
+**The diagnostic questions below are threads to explore, not a numbered checklist to walk through.** Follow the conversation. Go deeper where it matters. If a thread opens up something unexpected, follow it before moving to the next one. The questions give you coverage, but the order and depth should feel like coaching, not an intake form.
+
 **If the diagnostic reveals a foundation problem that blocks their channel** (for example, they want to focus on SEO but have no analytics set up), surface it: "Before we go deep on [channel], there is a foundation issue: [problem]. Would it make sense to address that first, then pivot to [channel]?" Let them decide. Do not silently redirect.
 
 **If the diagnostic reveals the channel is a poor fit,** do not force it. Say: "Based on what you just shared, [channel] might not be where the leverage is right now. Here is what I am seeing: [reason]. Want to step back and look at the landscape together?" This routes back to Step 3 if they agree, or stays the course if they push back with a reason you missed.
@@ -194,9 +199,9 @@ The core insight you are coaching from: the ad and the landing page are one conv
 1. What platform are you running ads on?
 2. What is your monthly ad spend?
 3. Do you know your cost per acquisition or return on ad spend? If an agency manages this, what do they report to you?
-3. When someone clicks your ad, where do they land? A dedicated page built for the ad, or an existing page like the homepage?
-4. Does the headline on the landing page match the promise in the ad?
-5. How are your campaigns structured? One big campaign, or separate campaigns for different audiences and offers?
+4. When someone clicks your ad, where do they land? A dedicated page built for the ad, or an existing page like the homepage?
+5. Does the headline on the landing page match the promise in the ad?
+6. How are your campaigns structured? One big campaign, or separate campaigns for different audiences and offers?
 
 **After the diagnostic, share your read.**
 
@@ -221,10 +226,10 @@ The core insight you are coaching from: two search games are running now. The tr
 
 1. How much organic traffic does your site get?
 2. Do you know what keywords or pages you are ranking for?
-2. Do you create content regularly? Blog posts, guides, resources? How often?
-3. Have you done any keyword research, or are you writing based on intuition?
-4. When someone asks an AI tool about your industry, does your content show up as a source?
-5. What is the technical state of your site? Fast, mobile-friendly, well-structured?
+3. Do you create content regularly? Blog posts, guides, resources? How often?
+4. Have you done any keyword research, or are you writing based on intuition?
+5. When someone asks an AI tool about your industry, does your content show up as a source?
+6. What is the technical state of your site? Fast, mobile-friendly, well-structured?
 
 **After the diagnostic, share your read.**
 
@@ -249,9 +254,9 @@ The core insight you are coaching from: measurement is infrastructure, not repor
 1. What analytics tool do you use? Is it set up and collecting data?
 2. Do you have conversion goals defined in your analytics tool?
 3. Do you know the difference between your macro conversions (purchases, signups, qualified leads) and your micro conversions (form starts, page views)?
-3. Can you tell, right now, which marketing channel is driving your best leads?
-4. Do you have a dashboard you check regularly, or do you log in and browse when something feels off?
-5. Have you ever run an experiment (A/B test, before/after comparison) to know if a change worked?
+4. Can you tell, right now, which marketing channel is driving your best leads?
+5. Do you have a dashboard you check regularly, or do you log in and browse when something feels off?
+6. Have you ever run an experiment (A/B test, before/after comparison) to know if a change worked?
 
 **After the diagnostic, share your read.**
 
@@ -290,17 +295,19 @@ Name the phase they are in and what comes next:
 - **Implement:** They know what to do but have not done it. First move: build the thing.
 - **Measure:** They are doing it but do not know if it is working. First move: define what success looks like and start tracking.
 
+**If the channel is email,** apply a lightweight framework: **Reactivate, Nurture, Convert.** Reactivate means re-engaging a dormant list or warming up new subscribers. Nurture means providing value (tips, content, stories) that builds trust. Convert means making an offer once trust is established. Most people jump straight to Convert and wonder why it does not work. A 30-day email plan typically runs: Week 1 reactivate (re-introduction), Weeks 2-3 nurture (value emails), Week 4 convert (soft pitch).
+
 **Build the action plan around:** one experiment in 30 days. Define the experiment, the expected outcome, and the measurement. Keep it small enough to finish and specific enough to learn from.
 
 ---
 
-## Step 7: Measurement cross-cut
+## Step 7: Before the plan
 
-**If they chose measurement as their channel in Step 6, skip this step.** They already covered it.
+Two questions before you build the action plan. Ask them naturally, not as a checklist.
 
-For every other channel, after the specialist diagnostic and before building the final plan, ask:
+**Measurement** (skip if they chose measurement as their channel in Step 6):
 
-> How will you know if this is working? What number or milestone will you check in 30 days to see if the effort paid off?
+> How will you know if this is working? What number or milestone will you check in 30 days?
 
 If they do not have an answer, help them pick one:
 - CRO: conversion rate on their top pages (percentage before and after)
@@ -308,21 +315,17 @@ If they do not have an answer, help them pick one:
 - SEO: organic traffic to their target pages, and rankings for their keyword cluster
 - General: whatever "winning in 30 days" meant to them in the diagnostic
 
-Name the metric. Make it specific. If they do not have tracking set up to measure it, make "set up tracking for [metric]" the first item in the action plan.
+Name the metric. Make it specific. If they do not have tracking set up to measure it, "set up tracking" becomes the first item in the action plan.
+
+**Execution reality:**
+
+> What would you need to actually execute on this? Time, skills, tools, help from someone else?
+
+Their answer shapes the plan. If they say "I need 5 hours a week and I only have 2," the plan must fit 2. If they say "I don't know how to write ad copy," the plan should note where Claude can do the work vs. where they steer.
 
 ---
 
-## Step 8: Transition to execution
-
-Before building the plan, ask:
-
-> What would you need to actually execute on this in the next 30 days? Time, skills, tools, help from someone else?
-
-Their answer shapes the plan. If they say "I need 5 hours a week and I only have 2," the plan must fit 2. If they say "I don't know how to write ad copy," the plan should note where Claude can do the work vs. where they steer. This is the shift from strategy to action: the person names what execution actually requires, and the plan respects it.
-
----
-
-## Step 9: Build and present the action plan
+## Step 8: Build and present the action plan
 
 Organize everything from the diagnostic into a concrete 30-day plan. Present it directly in the chat. Include any tasks or tools they mentioned during the conversation.
 
@@ -332,7 +335,7 @@ Organize everything from the diagnostic into a concrete 30-day plan. Present it 
 
 - **The ONE channel:** [the channel they picked]
 - **Parked for now:** [the NOT list, briefly]
-- **Success metric:** [what they will measure, from Step 7]
+- **Success metric:** [what they will measure]
 
 **Week 1:** [specific actions]
 **Week 2:** [specific actions]
@@ -354,7 +357,7 @@ If they want changes, update and present again. Once they confirm, move to the c
 
 ---
 
-## Step 10: Close
+## Step 9: Close
 
 Play back the full decision in a few sentences:
 
@@ -368,7 +371,7 @@ Play back the full decision in a few sentences:
 
 > One more thing, since your projects track priorities in an agenda. Want me to write the marketing focus and 30-day plan into your AGENDA.md? If your work spans more than one project, tell me which project owns this and I will route it there.
 
-If they say yes, read each agenda before writing so additions match its structure and conventions. New items enter at the bottom of the appropriate section with a one-line why drawn from the conversation.
+If they say yes, read the agenda before writing. Ask which section fits (FOR SURE is the default for committed, unscheduled work). Each new item gets a one-line why drawn from the conversation. Respect the agenda's conventions: FOR SURE items are unordered, UP NEXT items are numbered and limited. If unsure, ask rather than guess.
 
 If `STANDALONE`, the action plan in the chat is the deliverable. Remind them they can copy it.
 
