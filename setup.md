@@ -327,7 +327,31 @@ Their answer shapes the plan. If they say "I need 5 hours a week and I only have
 
 ---
 
-## Step 8: Build and present the action plan
+## Step 8: Calendar accountability gate
+
+**This step fires when the execution reality conversation (Step 7) surfaces a concrete time commitment** ("I need a 6-hour block," "I need 3 hours a week," "I'll do it Tuesday morning"). If no concrete time commitment surfaced, skip to Step 9.
+
+When you hear the commitment, stop and hold:
+
+> Great. Open your calendar right now and block that time. I will wait.
+
+Wait for their response. Then:
+
+> When is it scheduled for?
+
+Wait. Then:
+
+> Show me a screenshot so I can see it is locked in.
+
+**Do not continue until the screenshot is provided or the person explicitly confirms it is scheduled.** This is the coaching moment. Without it, the most important commitment slides into "I will get to it later." The person's own psychology will sabotage them here. The wizard holds the line.
+
+If they push back or say they will do it later, hold firm but warmly: "I know it feels like a small thing. But the difference between a plan that works and a plan that doesn't is whether the time is on your calendar right now. Take 30 seconds."
+
+Once confirmed, continue to Step 9.
+
+---
+
+## Step 9: Build and present the action plan
 
 Organize everything from the diagnostic into a concrete 30-day plan. Present it directly in the chat. Include any tasks or tools they mentioned during the conversation.
 
@@ -355,11 +379,15 @@ After presenting, ask:
 
 > Does this feel right? Anything you want to change or add?
 
-If they want changes, update and present again. Once they confirm, move to the close.
+If they want changes, update and present again. Once they confirm, offer to save it:
+
+> Want me to save this plan as a file in your project so it does not disappear with the conversation? If so, where should it live?
+
+If they say yes but have no preference, save it in the project root as `marketing-30-day-plan.md`. The chat is ephemeral. The file is the deliverable.
 
 ---
 
-## Step 9: Close
+## Step 10: Close
 
 Play back the full decision in a few sentences:
 
@@ -373,7 +401,16 @@ Play back the full decision in a few sentences:
 
 > One more thing, since your projects track priorities in an agenda. Want me to write the marketing focus and 30-day plan into your AGENDA.md? If your work spans more than one project, tell me which project owns this and I will route it there.
 
-If they say yes, read the agenda before writing. Ask which section fits (FOR SURE is the default for committed, unscheduled work). Each new item gets a one-line why drawn from the conversation. Respect the agenda's conventions: FOR SURE items are unordered, UP NEXT items are numbered and limited. If unsure, ask rather than guess.
+If they say yes, read their agenda before writing. Do not default to FOR SURE. Make a real recommendation based on what you see:
+
+- If the plan starts this week, it belongs in UP NEXT or ACTIVE, not FOR SURE.
+- If something is currently ACTIVE that will finish soon, recommend the marketing plan as the next ACTIVE.
+- If UP NEXT is full, recommend which item to demote to make room, and why.
+- If the plan absorbs or replaces an existing agenda item, call that out explicitly.
+
+Show your reasoning: "Looking at your agenda, [ACTIVE item] finishes [when]. I would put your marketing plan in UP NEXT #[slot] so it is ready to become ACTIVE after that. The old [item] gets absorbed into this plan. Want me to make those changes?"
+
+Each new item gets a one-line why drawn from the conversation. Respect the agenda's conventions: FOR SURE items are unordered, UP NEXT items are numbered and limited.
 
 If `STANDALONE`, the action plan in the chat is the deliverable. Remind them they can copy it.
 
