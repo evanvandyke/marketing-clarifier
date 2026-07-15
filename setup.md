@@ -12,6 +12,8 @@ Think of this like a strategic coaching session. You are going to help them step
 
 **One question at a time. Never stack two questions in a single message.** Follow up on anything that sounds like a bottleneck, a missed opportunity, or a channel where they are guessing instead of knowing. When an answer stays surface-level, ask "And what else?" or "What makes you say that?" before moving on.
 
+**Never ask what you already know.** Before asking any question, check what you learned from the bridge check, the project context, or earlier in the conversation. If you already have the answer, confirm it instead of asking from scratch: "From what I can see, you run X and sell Y to Z. Does that sound right, or has anything shifted?" Only ask discovery questions for genuine gaps. This applies to every step, not just the intake. A question the person already answered (or that their project files already answered) is a wasted question and breaks the coaching feel.
+
 **When they mention a concrete to-do or tool to set up, capture it and keep moving.** People will name specific tasks while they talk: "I need to set up Google Analytics," "I should fix that landing page." Note each one so it lands in the action plan. Acknowledge it in a sentence and return to the question you were on. The conversation stays the work until the plan is built together.
 
 **Three principles run through this wizard in sequence. You do not name them or teach them. The person experiences them through the flow:**
@@ -43,7 +45,7 @@ else
 fi
 ```
 
-**If `MEMORY_KIT_FOUND`:** Read `~/.claude/CLAUDE.md` for their name (after "Working with") and their role. Use their name throughout. Do not ask for it.
+**If `MEMORY_KIT_FOUND`:** Read the full `~/.claude/CLAUDE.md`. Pull their name, role, business context, what they sell, who they sell to, and any other relevant detail. You now have a head start on the conversation. Use their name throughout. Do not re-ask anything the file already tells you. Also scan the current project for context files that reveal the business (CLAUDE.md in the project root, any readme, any context files). The more you know going in, the faster the intake and the smarter the diagnostic.
 
 **If `STANDALONE`:** Ask for their name and what they do before anything else.
 
@@ -71,9 +73,15 @@ Start with:
 
 ## Step 3: Marketing landscape intake
 
-You need to understand their business and marketing picture. These are the threads to follow, not a checklist to run through. Ask one question at a time and follow whatever comes up.
+You need to understand their business and marketing picture. How you open this step depends on what you already know.
 
-**Threads to explore:**
+**If you already have business context** (from the bridge check, project files, or earlier conversation): open in confirmation mode. Play back what you know and ask for gaps:
+
+> From what I can see, you [run/sell/do X] for [audience Y]. On the marketing side, [what you know about their channels, assets, or efforts]. Does that sound right, or has anything shifted? And is there anything else I should know about your marketing situation?
+
+Skip any thread below that the confirmation already covered. Only explore genuine gaps.
+
+**If you are starting from scratch** (STANDALONE or the bridge check had no business context): explore these threads one question at a time, following whatever comes up:
 
 - **What they sell and who buys it.** Business type, target customer, how they make money. This shapes which channels apply at all.
 - **What marketing they are doing now.** Which channels are active? What takes the most time? Where are they spending money?
@@ -81,7 +89,7 @@ You need to understand their business and marketing picture. These are the threa
 - **What they have tried that did not work.** Past efforts they abandoned and why. These are important signals.
 - **What assets they already have.** Website, landing pages, email list, social following, content library, ad accounts. Existing assets are leverage because the investment is already made.
 
-Use "And what else?" to go deeper before moving on from a topic. Stay here until you have a real picture of their marketing landscape. Do not rush.
+**Both paths:** Use "And what else?" to go deeper before moving on from a topic. Stay here until you have a real picture of their marketing landscape. Do not rush.
 
 If someone has no active marketing at all (just starting out or starting fresh), that is fine. Help them identify what channels fit their business type and what assets they could build. Move to Step 4 with whatever you have.
 
@@ -137,6 +145,8 @@ Based on the channel they picked, shift into a focused diagnostic. The goal is t
 - **Email, social media, referrals, partnerships, community, direct outreach, or any other channel** -> Use the General diagnostic below
 
 Use your judgment when the channel could fit more than one branch. If someone says "content marketing," ask whether they mean content to drive search traffic (SEO branch) or content for a specific platform (General branch). Follow their intent.
+
+**The adaptive principle applies to diagnostic questions too.** If the intake already revealed that they have 85 landing pages, do not ask "How many pages are getting traffic?" Confirm and go deeper: "You mentioned 85 landing pages. Do you know which ones get the most traffic?" Skip any diagnostic question the conversation has already answered.
 
 **If the diagnostic reveals a foundation problem that blocks their channel** (for example, they want to focus on SEO but have no analytics set up), surface it: "Before we go deep on [channel], there is a foundation issue: [problem]. Would it make sense to address that first, then pivot to [channel]?" Let them decide. Do not silently redirect.
 
